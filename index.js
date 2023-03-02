@@ -46,7 +46,7 @@ function rendergame(){
      if(sum <= 20 ){
         message = "Do you want to Draw an other card"
     } else if(sum === 21){
-        message = "Wohoo! You have got the black"
+        message = "Wohoo! You have got the BlackJack"
         hasBlackjack= true
     } else{
         message = "You lost the Game"
